@@ -1,4 +1,4 @@
-# My Documentation Site
+# Get Spaghetti Coding Gods up and running
 
 This project is built using MkDocs with the Material theme, featuring a custom color scheme and dark/light mode toggle.
 
