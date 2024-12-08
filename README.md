@@ -12,8 +12,8 @@ This project is built using MkDocs with the Material theme, featuring a custom c
 1. Clone the repository 
 
 bash
-git clone https://github.com/robertvandecamp/spagheti-gods.git
-cd spagheti-gods
+git clone https://github.com/RobertvandeCamp/spaghetti-gods.git
+cd spaghetti-gods
 
 2. Create and activate a virtual environment
 
