@@ -1,0 +1,48 @@
+/* Light mode custom colors */
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #219ebcff;          /* blue-green */
+    --md-primary-fg-color--light: #8ecae6ff;   /* sky-blue */
+    --md-primary-fg-color--dark: #023047ff;    /* prussian-blue */
+    --md-accent-fg-color: #fb8500ff;           /* ut-orange */
+    --md-accent-fg-color--transparent: #ffb703ff; /* selective-yellow */
+}
+
+/* Dark mode custom colors */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #023047ff;          /* prussian-blue */
+    --md-primary-fg-color--light: #219ebcff;   /* blue-green */
+    --md-primary-fg-color--dark: #8ecae6ff;    /* sky-blue */
+    --md-accent-fg-color: #ffb703ff;           /* selective-yellow */
+    --md-accent-fg-color--transparent: #fb8500ff; /* ut-orange */
+}
+
+/* Additional customization for better contrast in dark mode */
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: #1a1a1a;
+    --md-default-fg-color: #ffffff;
+    --md-default-fg-color--light: #8ecae6ff;
+    --md-code-bg-color: #2b2b2b;
+}
+
+/* Add this to your existing extra.css */
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Update the image styling with mobile responsiveness */
+div[comic] img {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;  /* Default size for desktop */
+    height: auto;
+}
+
+/* Full width on mobile devices */
+@media screen and (max-width: 768px) {
+    div[comic] img {
+        max-width: 100%;
+    }
+} 
